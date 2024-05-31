@@ -1,0 +1,314 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #003459;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    
+}
+
+#container {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    margin: 10px auto;
+    background-color: #007ea7;
+    border: 2px solid #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-container {
+    width: 55%;
+}
+
+#date{
+    width: 100%;
+    max-width: 170px;
+    margin: 20px;
+    background-color: #007ea7;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    padding: 20px;
+    box-sizing: content-box;
+    margin-top: 20px; 
+    align-items: center;
+}
+
+#stars{
+    width: 100%;
+    max-width: 170px;
+    margin: 20px;
+    background-color: #007ea7;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    padding: 20px;
+    box-sizing: content-box;
+    margin-top: 20px; 
+    align-items: center;
+}
+
+#reason, #estado{
+    width: 100%;
+    max-width: 170px;
+    margin: 20px;
+    background-color: #007ea7;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    padding: 20px;
+    box-sizing: content-box;
+    margin-top: 20px; 
+    align-items: center;
+}
+
+.right-container {
+    width: 100%;
+    max-width: none;
+}
+
+#resenas{
+        position: relative;
+        margin: 10px auto;
+        background-color: #007ea7;
+        border: 2px solid #fff;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-top: 10px;
+        align-items: center;
+        border-radius: 25px;
+        margin-left: -300px;
+        margin-right: 16%;
+        height: 500px;
+}
+
+.search-container {
+    position: absolute;
+    top: -10px;
+    left: 70%;
+    background-color: #fdfdfd;
+    padding: 0 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-radius: 25px;
+    border-top: solid 2px white;
+    border-left: solid 2px white;
+    border-right: solid 2px white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+   
+
+}
+
+#search-button {
+    margin-left: 1px;
+}
+
+#add-button{
+   
+    margin-left: 85%;
+    margin-top: 10px;
+    border-radius: 25px;
+    
+}
+
+#header {
+  
+    margin-left: 40%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top: auto;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    background-color: #007ea7;
+    color: #fff;
+    display: grid;
+    place-items: center;
+}
+.menu{
+    list-style-type: none;
+    display: flex;  
+    margin-right: 10px; 
+}
+
+
+.Logo1{
+    width: 200px;
+}
+#logo {
+    margin-top: 5%;
+    margin-left: 27%;
+    margin-bottom: -65px;
+   
+}
+
+#header p {
+    margin: 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+#header a {
+    color: #ffffffbe;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+#form-header {
+    position: absolute;
+    top: -24px;
+    left: 20px;
+    background-color: #007ea7;
+    padding: 0 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: solid 2px white;
+    border-left: solid 2px white;
+    border-right: solid 2px white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#form-header h3 {
+    margin: 0;
+}
+
+
+#container p {
+    margin-left: 10px;
+}
+
+
+.input-container1 {
+    width: 48%; 
+    margin-bottom: 10px; 
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+
+#box {
+    
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    
+}
+
+#container input[type="submit"] {
+    background-color: #fff;
+    color: #2e38a7;
+    padding: 15px;
+    border: 2px solid #0A0E3F;
+    border-radius: 5px; 
+    cursor: pointer;
+    width: 20%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#footer {
+    margin-top: 20px; 
+    background-color: #007ea7;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+#footer p {
+    margin: 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+#contenedorDatos {
+    display: flex;
+}
+
+
+#derecha{
+    margin-left: 7%;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.name{
+    width: 100%;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    background-color: #fff;
+    color: #0A0E3F;
+}
+
+
+#derecha .input-group {
+    margin-bottom: 10px; /* Espacio entre grupos */
+}
+
+#derecha .input-group label {
+    display: block; /* Hace que el label ocupe toda la anchura disponible, posicionándose encima del input */
+    margin-bottom: 5px; /* Espacio entre el label y el input */
+}
+
+#derecha .input-group input {
+    width: 100%;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    background-color: #fff;
+    color: #0A0E3F;
+}
+
+/* Estilo para el input de Nombre que ocupa todo el ancho */
+.full-width {
+    width: 100%; /* Ocupa todo el espacio disponible */
+}
+
+/* Estilo para los inputs más pequeños */
+.small-inputs {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos igualmente */
+}
+
+.small-inputs .input-group {
+    width: 32%; /* Divide el espacio disponible en tres, ajusta según necesites */
+}
+
+
+#abajo .input-group input {
+    width: 100%;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    background-color: #fff;
+    color: #0A0E3F;
+}
+
+#email{
+    width: 80%;
+}
+
+.centrar-logo{
+    padding: 30% 0;
+}

@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #003459;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: grid;
+    place-items: center;
+}
+.logo{
+    width: 250px;
+}
+.error {
+    color: #ff5252;
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#container {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    margin: 10px auto;
+    background-color: #007ea7;
+    border: 2px solid #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    align-items: center;
+    border-radius: 25px;
+}
+
+#container-privacidad {
+    position: relative;
+    width: 80%;
+    max-width: 1200px;
+    margin: 10px auto;
+    background-color: #007ea7;
+    border: 2px solid #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    align-items: center;
+    border-radius: 25px;
+}
+
+#form-header {
+    position: absolute;
+    top: -24px;
+    left: 20px;
+    background-color: #007ea7;
+    padding: 0 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: solid 2px white;
+    border-left: solid 2px white;
+    border-right: solid 2px white;
+
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#form-header h3 {
+    margin: 0;
+}
+
+#container p {
+    margin-top: 10px;
+}
+
+#container input[type="text"],
+#container input[type="email"],
+#container input[type="password"],
+#container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    background-color: #fff;
+    color: #0A0E3F;
+}
+
+.select-registro {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 2px solid #fff;
+}
+
+
+.input-container1 {
+    width: 48%;
+    margin-bottom: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#container input[type="submit"] {
+    background-color: #fff;
+    color: #007ea7;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#container input[type="submit"]:hover  {
+    border: solid 1px #fff;
+    background-color: transparent;
+    color: white;
+}
+
+#footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #007ea7;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: 100px;
+    position: absolute;
+}
+
+
+#footer p {
+    margin: 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+#password-container {
+    position: relative;
+}
+
+#password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 20px;
+    height: auto;
+}
+
+#olvidocontrasena{
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    color: white;
+    display: block;
+}
+
+.olvido{
+    margin: 20px;
+}
+

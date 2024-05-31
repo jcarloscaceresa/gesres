@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    <img width="250px" src="../assets/img/GesResLogo1.png">
+        <div id="header">
+        <header>    
+            <ul>
+                <a href="#">Reseñas</a>
+                <a href="#">Análisis</a>
+                <a href="#">Formularios</a>
+                <a href="#">Datos personales</a>
+                <a href="#">Cerrar sesión</a>
+            </ul>
+        </header>
+        </div>
+        <div class="main-container">
+        <div class="left-container">
+        <section id="date">
+            <label>Fecha</label><br>
+            <input type="date" value="">
+        </section>
+
+        <div class="left-container">
+        <section id="stars">
+        <label>Estrellas</label><br>
+                <input type="checkbox" id="1estrella" name="Estrellas" value="1estrella">
+                <label for="1estrella">1 Estrella</label><br>
+                <input type="checkbox" id="2estrellas" name="Estrellas" value="2estrellas">
+                <label for="2estrellas">2 Estrellas</label><br>
+                <input type="checkbox" id="3estrellas" name="Estrellas" value="3estrellas">
+                <label for="3estrellas">3 Estrellas</label><br>
+                <input type="checkbox" id="4estrellas" name="Estrellas" value="4estrellas">
+                <label for="4estrellas">4 Estrellas</label><br>
+                <input type="checkbox" id="5estrellas" name="Estrellas" value="5estrellas">
+                <label for="5estrellas">5 Estrellas</label><br>
+        </section>
+        </div>
+
+        <div class="left-container">
+        <section id="reason" >
+            <label>Razón</label><br>
+                <input type="checkbox" id="DefectoProducto" name="Razon" value="DefectoProducto">
+                <label for="DefectoProducto">Defecto producto</label><br>
+                <input type="checkbox" id="RetrasoPedido" name="Razon" value="RetrasoPedido">
+                <label for="RetrasoPedido">Retraso pedido</label><br>
+                <input type="checkbox" id="AtencionRecibida" name="Razon" value="AtencionRecibida">
+                <label for="AtencionRecibida">Atención Recibida</label><br>
+                <input type="checkbox" id="ComentarioGeneral" name="Razon" value="ComentarioGeneral">
+                <label for="ComentarioGeneral">Comentario General</label><br>
+                <input type="checkbox" id="Contento" name="Razon" value="Contento">
+                <label for="Contento">Contento</label><br>
+        </section>
+        </div>
+        <div class="left-container">
+            <section id="reason" >
+                <label>Estado</label><br>
+                    <input type="checkbox" id="Completado" name="Estado" value="Completado">
+                    <label for="Completado">Completado</label><br>
+                    <input type="checkbox" id="Analizando" name="Estado" value="Analizando">
+                    <label for="Analizando">Analizando</label><br>
+                    <input type="checkbox" id="EnNegociacion" name="Estado" value="EnNegociacion">
+                    <label for="EnNegociacion">En negociación</label><br>
+            </section>
+            </div>
+        </div>
+        
+        <div class="right-container">
+        <section id="resenas">
+            <div id="form-header">
+                <h3>Reseñas</h3>
+            </div>
+            <p></p>
+            <div class="search-container">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+                <input type="search" id="search-input" placeholder="Buscar...">
+                <button type="submit" id="search-button"><i class="fa fa-search"></i></button>
+              </div>
+                <div id="add-button">
+                 <input type="submit" value="Añadir">
+                </div>
+            </div>
+        </section>
+        </div>
+        </div>
+</body>
+<footer id="footer">
+    <p>&#169; 2023 GesRes All rights reserved.</p>
+    <div>
+        <a href="#">Soporte</a>
+        <a href="#">Privacidad</a>
+        <a href="#">Términos y Condiciones</a>
+    </div>
+    </footer>
+</html>

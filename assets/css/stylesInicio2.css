@@ -1,0 +1,515 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #003459;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.left-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+}
+
+#date{
+    width: 100%;
+    max-width: 170px;
+    margin: 20px;
+    background-color: #007ea7;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    padding: 20px;
+    box-sizing: content-box;
+    margin-top: 20px; 
+    align-items: center;
+}
+
+#stars{
+    width: 100%;
+    max-width: 170px;
+    margin: 20px;
+    background-color: #007ea7;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    padding: 20px;
+    box-sizing: content-box;
+    margin-top: 20px; 
+    align-items: center;
+}
+
+#reason, #estado{
+    width: 100%;
+    max-width: 170px;
+    margin: 20px;
+    background-color: #007ea7;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    padding: 20px;
+    box-sizing: content-box;
+    margin-top: 20px; 
+    align-items: center;
+}
+
+#formulariosEstado{
+    width: 100%;
+    max-width: 110px;
+    margin: 20px;
+    background-color: #007ea7;
+    border: 2px solid #fff;
+    padding: 10px;
+    box-sizing: content-box;
+    margin-top: 20px; 
+    align-items: center;
+}
+
+#todos{
+    width: 15px;
+    height: 15px; 
+    clip-path: circle(46% at 50% 50%);
+}
+
+#leidos{
+    width: 15px;
+    height: 15px; 
+    clip-path: circle(46% at 50% 50%);
+}
+
+#sinLeer{
+    width: 15px;
+    height: 15px; 
+    clip-path: circle(46% at 50% 50%);
+}
+
+.right-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    max-height: none;
+}
+
+#resenas{
+    position: relative;
+    margin: 10px auto;
+    background-color: #007ea7;
+    border: 2px solid #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    align-items: center;
+    border-radius: 25px;
+    margin-left: -300px;
+    margin-right: 16%;
+    height: 500px;
+}
+
+#formularios{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #007ea7;
+    border: 2px solid #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    align-items: center;
+    border-radius: 25px;
+    margin-left: -400px;
+    margin-right: 16%;
+    height: 100%;
+}
+
+.search-container {
+    position: absolute;
+    top: -10px;
+    left: 70%;
+    background-color: #fdfdfd;
+    padding: 0 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-radius: 25px;
+    border-top: solid 2px white;
+    border-left: solid 2px white;
+    border-right: solid 2px white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#formulario{
+    position: relative;
+    width: 100%;
+    margin: 15px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#formulario-container{
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    padding: 45px;
+    margin-top: 20px;
+    width: 90%;
+    height: 15%;
+    display: flex;
+}
+
+#formulario-container-read{
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    padding: 50px;
+    margin-top: 20px;
+    width: 90%;
+    height: 15%;
+    display: flex;
+}
+
+.nombreCliente{
+    position: relative;
+    font-size: 11px;
+    top: -85px;
+    left: -20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 0px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 50px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.nombreClienteRead{
+    position: relative;
+    font-size: 11px;
+    top: -85px;
+    left: -20px;
+    background-color: whitesmoke;
+    color: black;
+    padding: 0px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 50px;
+    width: 300px;
+    text-align: center;
+}
+
+
+.emailCliente, .tlfCliente, .pedidoCliente, .fechaForm input {
+    position: relative;
+    display: inline-block;
+    flex: 1;
+    left: -300px;
+    top: -20px;
+    font-size: 8px;
+    background-color: white;
+    color: black;
+    text-align: left;
+    border: 2px solid black;
+    margin-right: 25px;
+    padding-left: 10px;
+}
+
+.fechaForm input {
+    font-size: 20px;
+}
+
+
+.informCliente{
+    position: relative;
+    font-size: 10px;
+    width: 100%;
+    max-width: 1250px;
+    height: 60%;
+    background-color: white;
+    color: black;
+    text-align: left, justify;
+    border: 2px solid black;
+    box-sizing: content-box;
+    padding-left: 10px;
+}
+
+#search-button {
+    margin-left: 1px;
+}
+
+#add-button{
+   
+    margin-left: 85%;
+    margin-top: 10px;
+    border-radius: 25px;
+    
+}
+
+#header {
+  
+    margin-left: 40%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top: auto;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    background-color: #007ea7;
+    color: #fff;
+    display: grid;
+    place-items: center;
+}
+.menu{
+    list-style-type: none;
+    display: flex;  
+    margin-right: 10px; 
+}
+
+
+.Logo1{
+    width: 200px;
+}
+#logo {
+    margin-top: 5%;
+    margin-left: 27%;
+    margin-bottom: -65px;
+   
+}
+
+#header p {
+    margin: 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+#header a {
+    color: #ffffffbe;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+#form-header {
+    position: absolute;
+    top: -24px;
+    left: 20px;
+    background-color: #007ea7;
+    padding: 0 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: solid 2px white;
+    border-left: solid 2px white;
+    border-right: solid 2px white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#form-header h3 {
+    margin: 0;
+}
+
+
+#container p {
+    margin-left: 10px;
+}
+
+
+.input-container1 {
+    width: 48%; 
+    margin-bottom: 10px; 
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+
+#box {
+    
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    
+}
+
+#container input[type="submit"] {
+    background-color: #fff;
+    color: #2e38a7;
+    padding: 15px;
+    border: 2px solid #0A0E3F;
+    border-radius: 5px; 
+    cursor: pointer;
+    width: 20%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#footer {
+    margin-top: 20px; 
+    background-color: #007ea7;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+#footer p {
+    margin: 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+
+/* Voy a crear unos estilos nuevos para reseÃ±as */
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+select:focus {
+    border-color: white;
+    box-shadow: 0 0 5px white;
+    outline: none;
+}
+
+#resena{
+    background: lightgrey;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1000px;
+}
+
+.nombreClienteRead h2{
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    background-color: lightgray;
+    padding: 0 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filaSuperior {
+    display: flex;
+    margin-top: 30px;
+    gap: 5px;
+}
+
+.fechaFormCliente, #reasonCliente, #estadoCliente {
+    position: relative;
+    top: -30px;
+    flex: 1;
+    max-width: 200px;
+}
+
+.fechaFormCliente{
+    margin-top: 20px;
+}
+
+.fechaFormCliente input,
+#reasonCliente select,
+#estadoCliente select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.fechaFormCliente input:focus,
+#reasonCliente select:focus,
+#estadoCliente select:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+.resenaCliente {
+    position: relative;
+    font-size: 11px;
+    margin-top: 20px;
+    color: black;
+}
+
+#calificacion {
+    position: relative;
+    top: -40px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* .calificacion span {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.estrella {
+    font-size: 30px;
+    color: #ccc;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0px;
+    margin: 0 1px;
+}
+
+.estrella.selected {
+    color: #FFD700;
+}
+
+.estrella.selected-1 {
+    color: #FF69B4;
+}
+
+.estrella.selected-2 {
+    color: #FFA500;
+}
+
+.estrella.selected-3 {
+    color: #FFD700;
+}
+
+.estrella.selected-4 {
+    color: #00FFFF;
+}
+
+.estrella.selected-5 {
+    color: #008000;
+} */
+
+.star{
+    position: relative;
+    right: 30px;
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    transition: color 0.3s;
+    cursor: pointer;
+    margin: 1px;
+}
+
